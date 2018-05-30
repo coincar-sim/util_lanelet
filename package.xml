@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>util_lanelet</name>
+  <version>1.0.0</version>
+  <description>Utils for sim_lanelet</description>
+
+  <license>BSD</license>
+  <maintainer email="maximilian.naumann@kit.edu">Maximilian Naumann</maintainer>
+  <author email="maximilian.naumann@kit.edu">Maximilian Naumann</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <test_depend>gtest</test_depend>
+
+  <depend>automated_driving_msgs</depend>
+  <depend>sim_lanelet</depend>
+  <depend>util_eigen_geometry</depend>
+  <depend>util_geometry_msgs</depend>
+  <depend>util_geo_coordinates_ros</depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
